@@ -4,7 +4,7 @@ $(document).ready(function() {
     $('#register').addClass('animated fadeOutLeft')
 
     var switchToLogin = $.ajax({
-      url: '/login',
+      url: '/users/login',
       type: 'get'
     })
     switchToLogin.done(function(data) {
@@ -20,7 +20,7 @@ $(document).ready(function() {
     $('#login').removeClass('fadeInRight')
     $('#login').addClass('animated fadeOutLeft')
     var switchToRegister = $.ajax({
-      url: '/register',
+      url: '/users/new',
       type: 'get'
     })
     switchToRegister.done(function(data) {

@@ -1,12 +1,12 @@
 <div class="container">
   <div id="login" class="center">
     <div class="login">
-      <form class="login-form animated fadeInRight" action="index.html" method="post">
+      <form class="login-form animated fadeInRight" action="/users" method="post">
         <div class="email">
-          <input type="text" name="email" placeholder="placeholder">
+          <input type="text" name="email" placeholder="email" value="<%= if @user then @user.email end %>"autofocus>
         </div>
         <div class="password">
-          <input type="password" name="password" placeholder="placeholder">
+          <input type="password" name="password" placeholder="password">
         </div>
         <div class="register-button">
           <button type="submit">login</button>
