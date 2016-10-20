@@ -1,0 +1,81 @@
+body { background-color: white }
+
+footer {
+  position: absolute;
+  width: 100%; height: 100px;
+  bottom: 0;
+  left: 0;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.login {
+  width: 50%;
+  margin: auto;
+  margin-top: 230px;
+  text-align: center;
+}
+.email input, .password input {
+  height: 60px;
+  font-size: 1.4em; font-family: Work Sans;
+  padding-left: 15px;
+}
+.email, .login {
+  /*padding: 10px;*/
+}
+.email {
+
+}
+.email input {
+  border-style: solid;
+  border-bottom: none;
+  border-color: #ef5350;
+  box-shadow: 0px 4px 4px #888888;
+  /*border-top-left-radius: 5px;
+  border-top-right-radius: 5px*/
+}
+.password input {
+  border-style: solid;
+  border-color: #ef5350;
+  box-shadow: 0px 4px 4px #888888;
+
+  /*border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;*/
+}
+.register-button button {
+  /*margin-top: 10px;*/
+  width:300px;
+  height: 60px;
+  border-style: solid;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #ef5350;
+  border-color: #ef5350;
+  box-shadow: 0px 4px 4px #888888;
+  color: white;
+  font-size: 1.5em; font-family: Work Sans;
+}
+.register-button button:hover {
+  /*color: black;*/
+  font-size: 2em
+}
+.login h4 {
+  font-family: Radley;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+span.login-text a, span.register-text a {
+  color: #ef5350
+}
+/*.email input:hover,
+.password input:hover,
+.register-button button:hover {
+  box-shadow: 0px 7px 10px #888888;
+
+}*/
+/*<link href="https://fonts.googleapis.com/css?family=Catamaran|Lekton|Monda|Nova+Square|PT+Sans|Pacifico|Radley|Work+Sans" rel="stylesheet"> */
+
+footer {
+  background-color: #ef5350
+}
