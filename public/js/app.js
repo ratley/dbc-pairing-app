@@ -29,4 +29,20 @@ $(document).ready(function() {
       // $('#register').addClass('animated fadeInLeft')
     })
   })
+
+  $('#bars').on('click', function() {
+    if($('.sidebar').css('left') == '0px') {
+      $('.sidebar').animate({
+      left: "-185",
+    }, 300, function() {
+      // Animation complete.
+    });
+  } else {
+    $('.sidebar').animate({
+    left: "0",
+  }, 300, function() {
+    // Animation complete.
+  });
+  }
+  })
 })
