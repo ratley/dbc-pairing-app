@@ -1,18 +1,13 @@
-<div class="container">
-  <div class="sidebar">
-    <h2>Modules</h2> <i id="bars" class="fa fa-bars" aria-hidden="true"></i>
-    <div class="search-bar">
-      <input type="text" name="name" class="search" placeholder="">
-      <i id="search" class="fa fa-filter"></i>
-    </div>
+<a class="logout" href="/logout">logout</a>
+<div class="sidebar">
+  <h2>Modules</h2> <i id="bars" class="fa fa-bars" aria-hidden="true"></i>
+  <div class="search-bar">
+    <input type="text" name="name" class="search" placeholder="">
+    <i id="search" class="fa fa-filter"></i>
   </div>
+</div>
+<div class="index-container">
   <div class="center">
     p l a c e h o l d e r --- i n d e x <br>
-    <% if !logged_in? %>
-      <a href="/login">login</a><br>
-      <a href="/register">register</a><br>
-    <% else %>
-      <a href="/logout">logout</a>
-    <% end %>
   </div>
 </div>

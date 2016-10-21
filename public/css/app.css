@@ -25,6 +25,15 @@ footer {
   letter-spacing: 2px;
   font-family: Work Sans
 }
+.logout {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.2em;
+  font-family: Work Sans;
+  padding: 10px;
+  color: #ef5350
+}
 .search-bar {
   text-align: center;
   /*margin: auto;*/
@@ -64,6 +73,16 @@ footer {
 .container {
   max-width: 1000px;
   margin: auto;
+}
+.index-container {
+  left: 50px;
+  top: 0;
+  right: 0;
+  bottom: 0px;
+  position: relative;
+  width: 1000px;
+  margin: auto;
+  border: 1px solid black
 }
 .login {
   width: 50%;
