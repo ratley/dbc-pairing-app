@@ -13,6 +13,7 @@ gem 'activerecord', '~>4.2.0'
 gem 'rake'
 gem 'bcrypt'
 gem 'shotgun'
+gem 'google-api-client', '~> 0.9', require: 'google/apis/calendar_v3'
 
 group :test do
   gem 'shoulda-matchers'
