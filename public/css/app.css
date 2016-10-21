@@ -30,7 +30,8 @@ footer {
   /*margin: auto;*/
   border-top: 1px solid #ef5350;
   padding: 20px 0px 0px 16px;
-  margin-top: 20px
+  margin-top: 20px;
+  position: relative;
 }
 .search-bar input {
   height: 30px;

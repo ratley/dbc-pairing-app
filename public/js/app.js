@@ -32,12 +32,24 @@ $(document).ready(function() {
 
   $('#bars').on('click', function() {
     if($('.sidebar').css('left') == '0px') {
+      $('.search-bar').animate({
+      left: "-200px",
+      position: 'relative'
+    }, 600, function() {
+      // Animation complete.
+    });
       $('.sidebar').animate({
       left: "-185",
     }, 300, function() {
       // Animation complete.
     });
   } else {
+    $('.search-bar').animate({
+    left: "0",
+    position: 'relative'
+  }, 300, function() {
+    // Animation complete.
+  });
     $('.sidebar').animate({
     left: "0",
   }, 300, function() {
