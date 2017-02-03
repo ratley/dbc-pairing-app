@@ -19,7 +19,7 @@ gem 'google-api-client', '~> 0.9', require: 'google/apis/calendar_v3'
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
-  gem 'rspec', '~>3.0'
+  # gem 'rspec', '~>3.0'
   gem 'capybara'
 end
 
