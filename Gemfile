@@ -11,6 +11,7 @@ gem 'activesupport', '~>4.2.0'
 gem 'activerecord', '~>4.2.0'
 
 gem 'rake'
+gem 'rspec'
 gem 'bcrypt'
 gem 'shotgun'
 gem 'google-api-client', '~> 0.9', require: 'google/apis/calendar_v3'
