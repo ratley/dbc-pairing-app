@@ -104,6 +104,7 @@ footer {
   height: 60px;
   font-size: 1.4em; font-family: Work Sans;
   padding-left: 15px;
+  width: 280px;
 }
 .email, .login {
   /*padding: 10px;*/
@@ -129,7 +130,7 @@ footer {
 }
 .register-button button {
   /*margin-top: 10px;*/
-  width:269px;
+  width:300px;
   height: 60px;
   border-style: solid;
   border-bottom-right-radius: 20px;
